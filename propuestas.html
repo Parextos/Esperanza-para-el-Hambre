@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+	<title>Hope for Hunger</title>
+</head>
+
+<body>
+	<!-- Barra para navegar rapido -->
+	<nav class="navbar navbar-dark bg-dark fixed-top">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="HopeForHunger.html">
+				<div id="logo">
+					<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+						class="bi bi-egg-fill" id="nox" viewBox="0 0 16 16">
+						<path d="M14 10a6 6 0 0 1-12 0C2 5.686 5 0 8 0s6 5.686 6 10z" />
+					</svg>
+					<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+						class="bi bi-egg-fried" id="extra" viewBox="0 0 16 16">
+						<path d="M8 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+						<path
+							d="M13.997 5.17a5 5 0 0 0-8.101-4.09A5 5 0 0 0 1.28 9.342a5 5 0 0 0 8.336 5.109 3.5 3.5 0 0 0 5.201-4.065 3.001 3.001 0 0 0-.822-5.216zm-1-.034a1 1 0 0 0 .668.977 2.001 2.001 0 0 1 .547 3.478 1 1 0 0 0-.341 1.113 2.5 2.5 0 0 1-3.715 2.905 1 1 0 0 0-1.262.152 4 4 0 0 1-6.67-4.087 1 1 0 0 0-.2-1 4 4 0 0 1 3.693-6.61 1 1 0 0 0 .8-.2 4 4 0 0 1 6.48 3.273z" />
+					</svg>
+				</div>
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+				data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+				aria-labelledby="offcanvasDarkNavbarLabel">
+				<div class="offcanvas-header">
+					<h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Vamos a reducir el <span
+							id="barrita">HAMBRE</span> en todo el mundo. </h5>
+					<button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+						aria-label="Close"></button>
+				</div>
+				<br>
+				<div class="offcanvas-body">
+					<ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+						<li class="nav-item">
+							<a class="nav-link active " aria-current="page" href="HopeForHunger.html" id="primera">
+								<h6>Pagina principal</h6>
+							</a>
+						</li> <br>
+						<li class="nav-item">
+							<a class="nav-link active " aria-current="page" href="propuestas.html" id="segunda">
+								<h6>Propuestas</h6>
+							</a>
+						</li> <br>
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="contacto.html" id="tercera">
+								<h6>Contacto</h6>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	<!-- Imagen de la pagina principal -->
+	<div id="caja-ini">
+		<img src="ima/soluciones.jpg" width="1000" height="300" id="front">
+		<div class="lh-sm" id="central"><b>Posibles soluciones</b></div>
+	</div>
+
+
+	<div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+		<div class="col">
+			<div class="card">
+				<img src="ima/Prop1.jpg" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title fs-1">Ayudar a concienciar sobre el problema</h5>
+					<p class="card-text fs-4">Una forma de luchar contra el hambre en el
+						mundo es ayudar a concienciar a otras personas sobre la
+						importancia de tomar medidas inmediatas para evitar las
+						consecuencias del hambre. Esto es debido a que una gran
+						cantidad de personas del mundo no entienden la magnitud y
+						los efectos que tiene el hambre sobre un grupo de personas.
+						Participar en charlas, eventos y otras actividades que den
+						visibilidad al problema siempre es de gran ayuda. Así mismo
+						usar en ciertas ocasiones las redes sociales para aumentar la
+						cantidad de importancia sobre post hechos sobre el hambre, ayuda
+						grandemente en la cantidad de personas que se informan del problema.</p>
+				</div>
+			</div>
+		</div>
+		<div class="col">
+			<div class="card">
+				<img src="ima/Prop2.jpg" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title fs-1">Cuidar el medioambiente</h5>
+					<p class="card-text fs-4">
+						El cambio climático, con su aumento de la temperatura
+						y los fenómenos climáticos extremos, está generando un
+						impacto significativo en la producción agrícola y ganadera,
+						lo cual tiene graves consecuencias para la seguridad alimentaria
+						y provoca el aumento del hambre en diversas regiones del mundo.
+						Los efectos adversos del cambio climático, como sequías prolongadas,
+						inundaciones repentinas, tormentas más intensas y cambios en los
+						patrones de lluvia, están afectando directamente los cultivos y el ganado,
+						lo que lleva a una disminución en la producción de alimentos.</p>
+					<p class="card-text fs-4">
+						El aumento de los fenómenos climáticos extremos también afecta
+						negativamente a la ganadería. Las olas de calor pueden estresar a
+						los animales y reducir su producción de carne, leche o huevos. Además,
+						los cambios en los patrones de lluvia pueden afectar la disponibilidad de
+						pastizales y forraje, lo que dificulta la alimentación del ganado. Esto se
+						traduce en una disminución de la producción ganadera, lo que a su
+						vez afecta a la seguridad alimentaria y aumenta la vulnerabilidad de
+						las comunidades rurales que dependen de la cría de animales para su subsistencia.</p>
+				</div>
+			</div>
+		</div>
+		<div class="col">
+			<div class="card">
+				<img src="ima/Prop3.jpg" class="card-img-top">
+				<div class="card-body">
+					<h5 class="card-title fs-1">Reducir el desperdicio de alimentos</h5>
+					<p class="card-text fs-4">Al planificar nuestras compras y evitar el exceso de
+						alimentos, podemos asegurarnos de que los recursos disponibles se utilicen
+						de manera más eficiente, lo que a su vez ayuda a garantizar que más personas
+						tengan acceso a alimentos adecuados. Cada alimento que desperdiciamos es una
+						oportunidad perdida de aliviar el hambre y mejorar la seguridad alimentaria
+						en nuestras comunidades. Ya que es importante tener en cuenta que, al reducir
+						el desperdicio de alimentos también estamos reduciendo la presión sobre los recursos
+						naturales utilizados en la producción de alimentos. El hambre y el desperdicio de
+						alimentos están estrechamente vinculados: cada alimento desperdiciado
+						significa una menor cantidad disponible para alimentar a las personas que
+						padecen hambre en todo el mundo.</p>
+				</div>
+			</div>
+		</div>
+		<div class="col">
+			<div class="card">
+				<img src="ima/Prop4.jpg" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title fs-1">Promover la agricultura urbana</h5>
+					<p class="card-text fs-4">Promover la agricultura urbana es otra
+						acción que puede contribuir a la reducción del hambre,
+						especialmente en áreas urbanas donde el acceso a alimentos
+						frescos puede ser limitado. Establecer huertos urbanos
+						comunitarios y promover la participación de la comunidad
+						en la producción de alimentos puede garantizar un suministro
+						local de alimentos frescos y nutritivos. Estos espacios
+						no solo proporcionan alimentos, sino que también fomentan
+						la participación comunitaria, la educación sobre la
+						producción de alimentos y el desarrollo de habilidades
+						prácticas. La agricultura urbana puede ser una solución
+						sostenible y accesible para mejorar la seguridad alimentaria
+						y promover una alimentación saludable en entornos urbanos.</p>
+				</div>
+			</div>
+		</div>
+		<div class="col">
+			<div class="card">
+				<img src="ima/Prop5.jpg" class="card-img-top" alt="...">
+				<div class="card-body">
+					<h5 class="card-title fs-1">Voluntariado</h5>
+					<p class="card-text fs-4">Participar en programas de
+						voluntariado relacionados con la alimentación
+						es otra forma de contribuir a la reducción del
+						hambre. Colaborar con organizaciones locales
+						que distribuyen alimentos a comunidades vulnerables,
+						ayudar en la preparación y entrega de alimentos
+						en comedores comunitarios, y participar en programas
+						educativos sobre nutrición son acciones valiosas.
+						El voluntariado nos brinda la oportunidad de marcar
+						una diferencia tangible en la vida de las personas
+						al brindarles acceso a alimentos nutritivos y educación
+						sobre una alimentación saludable. Además, el voluntariado
+						puede generar conciencia sobre la realidad del hambre y
+						movilizar a más personas para que se unan a la causa.</p>
+				</div>
+			</div>
+		</div>
+		<div class="col">
+			<div class="card">
+				<img src="ima/Prop6.jpg" class="card-img-top">
+				<div class="card-body">
+					<h5 class="card-title fs-1">Donando alimentos</h5>
+					<p class="card-text fs-4">Participar en programas de donación
+						de alimentos es una acción concreta que puede marcar
+						la diferencia en la reducción del hambre. Colaborar
+						con organizaciones benéficas y bancos de alimentos nos
+						permite canalizar los alimentos no utilizados o
+						cercanos a su fecha de vencimiento hacia aquellos
+						que más los necesitan. Muchos de estos alimentos
+						aún son seguros y nutritivos, y su donación puede
+						marcar una gran diferencia en la vida de personas
+						en situación de vulnerabilidad. Además, promover
+						la conciencia sobre la importancia de donar
+						alimentos y evitar el desperdicio es esencial
+						para construir una sociedad más solidaria y sostenible.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="card mt-4">
+		<img src="ima/Prop7.jpg" class="card-img-top">
+		<div class="card-body">
+			<h5 class="card-title fs-1">Donar dinero a instituciones</h5>
+			<p class="card-text fs-4">Donar dinero a organizaciones
+				que se dedican a alimentar a personas es una acción poderosa
+				y efectiva para combatir el hambre. Estas organizaciones tienen
+				la experiencia y los recursos necesarios para llegar a comunidades
+				en situación de vulnerabilidad y proporcionar alimentos nutritivos
+				a aquellos que más lo necesitan. Al donar dinero, podemos apoyar
+				su labor y contribuir a ampliar su alcance, permitiéndoles
+				llegar a más personas y satisfacer las necesidades alimentarias básicas.</p>
+			<p class="card-text fs-4">Las donaciones monetarias a estas
+				organizaciones les permiten adquirir alimentos frescos,
+				enlatados o secos a granel, lo que puede maximizar su poder
+				de compra y su capacidad para brindar una variedad de opciones
+				nutricionales a las personas necesitadas. Además, las donaciones
+				financieras también pueden utilizarse para mejorar las infraestructuras
+				de almacenamiento y distribución, garantizando que los alimentos
+				lleguen de manera segura y eficiente a quienes los necesitan. Al
+				donar dinero a estas organizaciones, estamos contribuyendo directamente
+				a la provisión de alimentos esenciales y ayudando a aliviar el hambre
+				en nuestras comunidades y en todo el mundo.</p>
+			<p class="card-text fs-4">
+				A continuación se presentaran instituciones a las cuales puedes donar:
+			</p>
+			<table class="table table-hover fs-4">
+				<thead>
+					<tr>
+						<th scope="col">#</th>
+						<th scope="col">Nombre</th>
+						<th scope="col" colspan="3">Link</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th scope="row">1</th>
+						<td>Accion contra el hambre</td>
+						<td colspan="3"><a href="https://www.accioncontraelhambre.org/es/actua/dona">accioncontraelhambre.org</a></td>
+					</tr>
+					<tr>
+						<th scope="row">2</th>
+						<td>Banco de Alimentos de México</td>
+						<td colspan="3"><a href="https://bamx.org.mx/dona-efectivo/">bamx.org.mx</a></td>
+					</tr>
+					<tr>
+						<th scope="row">3</th>
+						<td>Alimento para todos</td>
+						<td colspan="3"><a href="https://apt.org.mx/donate/">apt.org.mx</a></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>

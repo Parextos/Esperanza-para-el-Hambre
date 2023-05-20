@@ -1,0 +1,341 @@
+body {
+    background-color: #01060f;
+}
+
+#logo:hover #extra {
+    display: inline;
+}
+
+#not-extra {
+    display: inline;
+}
+
+#logo {
+    position: relative;
+}
+
+#logo:hover #nox {
+    display: none;
+}
+
+#extra {
+    top: 13px;
+    left: 13px;
+    display: none;
+}
+
+#primera {
+    background: -webkit-linear-gradient(0deg, #fbeaa8, #5b524e);
+    background-clip: #01060f;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#segunda {
+    background: -webkit-linear-gradient(0deg, #deadd3, #a48ad0);
+    background-clip: #01060f;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#tercera {
+    background: -webkit-linear-gradient(0deg, #7d6de8, #aec1d1);
+    background-clip: #01060f;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#caja-ini {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+#barrita {
+    background: -webkit-linear-gradient(0deg, #f8bc54, #b9f8cc);
+    background-clip: #01060f;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+#central {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    width: 75%;
+    transform: translate(-50%, -50%);
+    text-shadow: white -7px -7px;
+    font-size: 8vw;
+    background: -webkit-linear-gradient(0deg, #f8bc54, #b9f8cc);
+    background-clip: #01060f;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+#front {
+    width: 100%;
+    height: auto;
+    opacity: 0.3;
+    margin-top: 65px;
+}
+
+@keyframes der {
+    0% {
+        background-color: #b9f8cc;
+        left: 200%;
+    }
+
+    50% {
+        background-color: #b9f8cc;
+        left: 53%;
+    }
+
+    100% {
+        background-color: #f8bc54;
+        left: 53%;
+    }
+}
+
+@keyframes izq {
+    0% {
+        background-color: #f8bc54;
+        left: -100%;
+    }
+
+    50% {
+        background-color: #f8bc54;
+        left: 3%;
+    }
+
+    100% {
+        background-color: #b9f8cc;
+        left: 3%;
+    }
+}
+
+.dere {
+    position: relative;
+    animation-name: der;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    border-radius: 40px;
+    left: 200%;
+    width: 44%;
+    height: 30vw;
+    margin-bottom: 50px;
+    /* animation-iteration-count: infinite; */
+}
+
+.izqu {
+    position: relative;
+    animation-name: izq;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    float: left;
+    border-radius: 40px;
+    left: -100%;
+    width: 44%;
+    height: 30vw;
+    margin-bottom: 50px;
+    /* animation-iteration-count: infinite; */
+}
+
+@keyframes imder {
+    0% {
+        left: 200%;
+    }
+
+    50% {
+        left: 8%;
+    }
+
+    100% {
+        left: 8%;
+    }
+}
+
+@keyframes imizq {
+    0% {
+        left: -100%;
+    }
+
+    50% {
+        left: 3%;
+    }
+
+    100% {
+        left: 3%;
+    }
+}
+
+.Fder {
+    position: relative;
+    animation-name: imder;
+    animation-duration: 7s;
+    animation-fill-mode: forwards;
+    border-radius: 40px;
+    left: 200%;
+    width: 44%;
+    height: 30vw;
+    margin-bottom: 50px;
+}
+
+.Fizq {
+    position: relative;
+    animation-name: imizq;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    border-radius: 40px;
+    left: -100%;
+    width: 44%;
+    height: 30vw;
+    float: left;
+    margin-bottom: 50px;
+}
+
+.texto {
+    font-size: 2vw;
+    text-align: justify;
+    position: absolute;
+    left: 8%;
+    top: 10%;
+    width: 85%;
+}
+
+.car {
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+.car:hover {
+    background-color: black;
+    opacity: 1;
+}
+
+#cari {
+    height: 39vw;
+}
+
+table, th, td {
+    border: 1px solid;
+}
+
+.lis{
+    font-size: 2vw;
+    text-align: justify;
+    position: absolute;
+    left: 8%;
+    top: 25%;
+    width: 85%;
+}
+
+.lado{
+    width: 90%;
+    font-size: large;
+    height: 25%;
+    border-radius: 40px;
+    margin-left: 20px;
+    display: inline;
+    position: absolute;
+}
+
+.olado{
+    width: 90%;
+    font-size: large;
+    height: 80%;
+    border-radius: 40px;
+    margin-left: 20px;
+    display: inline;
+    position: absolute;
+}
+
+
+@media (max-width: 600px) {
+    @keyframes imder {
+        0% {
+            left: 1000px;
+        }
+
+        50% {
+            left: 20%;
+        }
+
+        100% {
+            left: 20%;
+        }
+    }
+
+    @keyframes imizq {
+        0% {
+            left: -1000px;
+        }
+
+        50% {
+            left: 20%;
+        }
+
+        100% {
+            left: 20%;
+        }
+    }
+
+    @keyframes der {
+        0% {
+            background-color: #b9f8cc;
+            left: 1000px;
+        }
+
+        50% {
+            background-color: #b9f8cc;
+            left: 6%;
+        }
+
+        100% {
+            background-color: #f8bc54;
+            left: 6%;
+        }
+    }
+
+    @keyframes izq {
+        0% {
+            background-color: #f8bc54;
+            left: -1000px;
+        }
+
+        50% {
+            background-color: #f8bc54;
+            left: 6%;
+        }
+
+        100% {
+            background-color: #b9f8cc;
+            left: 6%;
+        }
+    }
+
+    .dere {
+        width: 88%;
+    }
+
+    .izqu {
+        float: none;
+        width: 88%;
+    }
+
+    .Fder {
+        width: 60%;
+        height: 40vw;
+    }
+
+    .Fizq {
+        float: none;
+        width: 60%;
+        height: 40vw;
+    }
+
+    .texto {
+        font-size: 3vw;
+    }
+}
